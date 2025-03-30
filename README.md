@@ -16,6 +16,10 @@ This is a **monorepo** built with **Turbo**, managing multiple apps
 ## 📌 About This Project
 This project was built as a **simple implementation** of a Windows Explorer-like for testing purposes. Due to time constraints, many features are **not fully developed**.
 
+## Test Result
+https://github.com/willybudiman23/window-explorer/blob/master/test-result.mp4
+
+
 ## 📦 Installation
 
 ### 1️⃣ Clone the Repository
