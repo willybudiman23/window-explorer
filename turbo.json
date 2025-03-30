@@ -1,0 +1,19 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "dev": {
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "type-check": {
+      "outputs": []
+    },
+    "lint": {
+      "outputs": []
+    }
+  },
+  "globalDependencies": ["package.json", "bun.lockb"]
+}

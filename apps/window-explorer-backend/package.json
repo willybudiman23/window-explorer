@@ -1,0 +1,25 @@
+{
+  "name": "window-explorer-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/main.ts"
+  },
+  "prisma": {
+    "seed": "bun run prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "@types/bun": "latest",
+    "dotenv": "^16.4.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "elysia": "^1.2.25",
+    "prisma": "^6.5.0"
+  }
+}
