@@ -6,6 +6,7 @@
 - **Vue 3**
 - **Vue Router**
 - **Axios**
+- **Pinia**
 - **Tailwind CSS** `4.x`
 
 ## ✅ Features Implemented
@@ -33,7 +34,7 @@ This project was built as a **simple implementation** of a Windows Explorer-like
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/window-explorer.git
+git clone https://github.com/willybudiman23/window-explorer.git
 cd window-explorer
 ```
 

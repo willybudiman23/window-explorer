@@ -9,6 +9,7 @@ This is a **monorepo** built with **Turbo**, managing multiple apps
 - **Vue 3**
 - **Vue Router**
 - **Axios**
+- **Pinia**
 - **Tailwind CSS** `4.x`
 - **Elysia (Bun Backend)**
 - **Prisma**
@@ -24,7 +25,7 @@ https://github.com/willybudiman23/window-explorer/blob/master/test-result.mp4
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/window-explorer.git
+git clone https://github.com/willybudiman23/window-explorer.git
 cd window-explorer
 ```
 
@@ -43,13 +44,21 @@ Copy .env.example to .env and update VITE_API_EXPLORER_ENDPOINT:
 ```
 cp apps/window-explorer-frontend/.env.example apps/window-explorer-frontend/.env
 ```
+Copy .env.example to .env and update DATABASE_URL:
+```
+cp apps/window-explorer-backend/.env.example apps/window-explorer-backend/.env
+```
 
 ### 4️⃣ Run Apps with Turbo
 Run frontend app
 ```
 bun --filter window-explorer-frontend run dev
+# or cd to apps/window-explorer-frontend then run app
+bun run dev
 ```
 Run backend app
 ```
 bun --filter window-explorer-backend run dev
+# or cd to apps/window-explorer-backend then run app
+bun run dev
 ```
