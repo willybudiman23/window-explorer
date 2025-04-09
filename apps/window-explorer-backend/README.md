@@ -37,8 +37,7 @@ cp .env.example .env
 ```
 ### Migration & Seed
 ```
-bunx prisma migrate dev --name init
-bunx prisma db seed
+bunx prisma migrate dev
 ```
 
 ### Start Development Server
