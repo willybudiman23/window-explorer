@@ -43,7 +43,11 @@ const { selectedFolder } = storeToRefs(foldersStore)
 const { toggleExpandFolder, selectFolder } = foldersStore
 
 const onClickSelectFolder = (folder: IFolderMapped) => {
-  router.push({ name: 'folder', params: { folderId: folder.id } })
   selectFolder(folder)
+  if (selectedFolder.value?.id) {
+    router.push({ name: 'folder', params: { folderId: folder.id } })
+  } else {
+    router.push({ name: 'folders' })
+  }
 }
 </script>
